@@ -15,5 +15,5 @@ COPY . /iris_model
 
 EXPOSE 8000
 
-
+# command to run the model using fastapi
 CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
